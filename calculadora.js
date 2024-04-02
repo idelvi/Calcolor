@@ -18,7 +18,7 @@ function calculate() {
 // Definir una lista de colores para la paleta
 var colores = [ '#283618', '#5e3023', '#423e37', '#5d576b', '#393e41']; // Ejemplo: rojo, verde, azul
 var coloresFondos = [ '#606c38', '#c08552', '#e3b23c', '#d496a7', '#FF715B']; // Ejemplo: rojo, verde, azul
-var coloresDisplay = [ '#fefae0', '#f3e9dc', '#edebd7', '#f1dede', '#edebd7']; // Ejemplo: rojo, verde, azul
+var coloresDisplay = [ '#dae3ee', '#5e3023', '#423e37', '#5d576b', '#393e41']; // Ejemplo: rojo, verde, azul
 var indiceColor = 0; // Índice para alternar entre los colores
 
 // Obtener referencia a la calculadora y a los botones
@@ -43,11 +43,9 @@ botonCambiarColores.addEventListener('click', function(evento) {
     display.style.setProperty('--color-secundario', colorDisplay);
     body.style.setProperty('--color-fondo', colorfondo);
     cambiarColores.style.backgroundColor = color;
-    cambiarColores.style.color = colorDisplay;
 
     botones.forEach(function(boton) {
       boton.style.backgroundColor = color;
-      boton.style.color = colorDisplay;
     });
 
   }
