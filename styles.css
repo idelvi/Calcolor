@@ -193,8 +193,8 @@ input[type="button"] {
         padding: 8vw;
         margin: 0 auto;
     
-        width: 20vw;
-        height: 50vw;
+        width: 50vw;
+        height: 75vw;
     
         border-radius: 8vw;
         background-color: var(--color-primario);
@@ -224,7 +224,7 @@ input[type="button"] {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         /* Cuatro columnas de igual tamaño */
-        grid-auto-rows: 14vw;
+        grid-auto-rows: 9vw;
         /* Altura de los botones */
         gap: 5vw;
         /* Espacio entre celdas */
