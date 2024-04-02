@@ -186,8 +186,8 @@ input[type="button"] {
         padding: 8vw;
         margin: 0 auto;
     
-        width: 70vw;
-        height: 100vw;
+        width: 40vw;
+        height: 70vw;
     
         border-radius: 8vw;
         background-color: var(--color-primario);
